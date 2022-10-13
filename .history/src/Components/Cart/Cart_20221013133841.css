@@ -1,0 +1,11 @@
+.cart{
+    /* position: sticky;
+    top: 0; */
+    display: flex;
+    
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
