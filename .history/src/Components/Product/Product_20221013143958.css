@@ -15,8 +15,7 @@
     margin: 0 14px;
 }
 .product-info p{
-    margin-bottom: 0;
-    margin-top: 5px;
+   
 }
 .product-name{
     font-family: 'Lato';
@@ -38,7 +37,7 @@
     justify-content: center;
 }
 .btn-text{
-    margin-top: 10px;
+    margin-right: 5px;
 }
 .btn-cart:hover{
     background-color: orange;

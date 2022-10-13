@@ -16,8 +16,8 @@ const Product = ({product, handleAddToCart}) => {
                 
             </div>
             <button onClick={() => handleAddToCart(product)} className='btn-cart'>
-                <p className='btn-text px-2'>Add to Cart</p>
-                <span><FontAwesomeIcon  className='ml-2' icon={faShoppingCart}></FontAwesomeIcon></span>
+                <p className='btn-text'>Add to Cart</p>
+                <FontAwesomeIcon  className='ml-2' icon={faShoppingCart}></FontAwesomeIcon>
             </button>
         </div>
     );
