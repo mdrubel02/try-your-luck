@@ -57,7 +57,7 @@ const Shop = () => {
                         }
                     </div>
                 </div>
-                <div className="col-lg-3 cart-container">
+                <div className="col-lg-3">
                     <p>select items : {cartsLength}</p>
                     <div className=''>
 

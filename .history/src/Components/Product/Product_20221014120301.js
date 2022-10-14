@@ -10,8 +10,8 @@ const Product = ({ product, handleAddToCart }) => {
     return (
         <div className='col-lg-4'>
           
-            <div class="card" style={{width: '15rem'}}>
-                <img src={picture} class="card-img-top" alt="picture" />
+            <div class="card" style="width: 15rem;">
+                <img src={picture} class="card-img-top" alt="picture"></img>
                 <div class="card-body">
                     <h5 class="card-title">{name}</h5>
                     <p class="card-text">Price: ${price}</p>
