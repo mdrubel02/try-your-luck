@@ -8,9 +8,9 @@ const Product = ({ product, handleAddToCart }) => {
     const { name, picture, price, } = product;
 
     return (
-        <div className='col-lg-4 position-relative'>
+        <div className='col-lg-4'>
           
-            <div className="card " style={{width: '15rem', height: '420px'}}>
+            <div className="card position-relative" style={{width: '15rem', height: '420px'}}>
                 <img src={picture} className="card-img-top" alt="picture" />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>

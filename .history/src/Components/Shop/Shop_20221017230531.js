@@ -45,9 +45,9 @@ const Shop = () => {
     return (
         <Container>
 
-            <div className='row gy-5'>
-                <div className="col-lg-9 col-md-12">
-                    <div className='row gy-3'>
+            <div className='row gy-2'>
+                <div className="col-lg-9">
+                    <div className='row'>
                         {
                             products.map(product => <Product
                                 key={product.id}
@@ -57,7 +57,7 @@ const Shop = () => {
                         }
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-12 cart-container">
+                <div className="col-lg-3 cart-container">
                     <p>select items : {cartsLength}</p>
                     <div className=''>
 
