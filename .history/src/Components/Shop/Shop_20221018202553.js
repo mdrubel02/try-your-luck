@@ -58,7 +58,7 @@ const Shop = () => {
                         }
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-12  order-1 cart-container">
+                <div className="col-lg-3 col-md-12 md:col order-1 cart-container">
                     <p>select items : {cartsLength}</p>
                     <div className=''>
 
@@ -73,7 +73,7 @@ const Shop = () => {
                         <button onClick={choiceNone} className="btn btn-primary mb-2">choice one</button> <br />
                         <button onClick={choiceAgin} className='btn btn-primary' >choice agin</button>
                     </div>
-                </div>
+                </div>8
             </div>
 
         </Container>

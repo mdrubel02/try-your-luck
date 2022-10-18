@@ -20,7 +20,7 @@ const Shop = () => {
         console.log(product);
         const newCart = [...carts, product];
         const cartsLength = carts.length + 1;
-        if (cartsLength === 0) {
+        if (choice === undefined) {
             alert('plz select items')
         }
         if (cartsLength > 4) {
@@ -41,7 +41,7 @@ const Shop = () => {
     const choiceAgin = () => {
         console.log('click')
         // console.log(setCarts(''))
-        setChoice([ ])
+        setChoice()
     }
     return (
         <Container>
@@ -58,7 +58,7 @@ const Shop = () => {
                         }
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-12  order-1 cart-container">
+                <div className="col-lg-3 col-md-12 cart-container">
                     <p>select items : {cartsLength}</p>
                     <div className=''>
 
@@ -70,8 +70,8 @@ const Shop = () => {
 
                     </div>
                     <div>
-                        <button onClick={choiceNone} className="btn btn-primary mb-2">choice one</button> <br />
-                        <button onClick={choiceAgin} className='btn btn-primary' >choice agin</button>
+                        <button onClick={choiceNone} className="btn btn-lg btn-cart">choice one</button>
+                        <button onClick={choiceAgin} >choice agin</button>
                     </div>
                 </div>
             </div>
